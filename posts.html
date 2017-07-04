@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div class="articles">
+  <h2>Posts</h2>
+  <ul>
+    {% for post in site.posts %}
+    <li>
+      <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <small class="hidden-xs">{{ post.date | date: "%B %-d, %Y" }}</small></p>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
