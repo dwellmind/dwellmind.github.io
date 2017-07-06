@@ -1,4 +1,5 @@
 ---
+title: Posts
 layout: default
 ---
 
@@ -7,9 +8,11 @@ layout: default
   <ul>
     {% for post in site.posts %}
     <li>
-      <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      <small class="hidden-xs">{{ post.date | date: "%B %-d, %Y" }}</small></p>
+      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <small class="hidden-xs">{{ post.date | date: "%B %-d, %Y" }}</small>
     </li>
     {% endfor %}
   </ul>
 </div>
+
+<p class="rss-subscribe">Find the feed <a href="{{ "/feed.xml" | relative_url }}">here</a>.</p>

@@ -1,18 +1,1 @@
----
-title: Posts
-layout: default
----
-
-<div class="articles">
-  <h2>Posts</h2>
-  <ul>
-    {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      <small class="hidden-xs">{{ post.date | date: "%B %-d, %Y" }}</small>
-    </li>
-    {% endfor %}
-  </ul>
-</div>
-
-<p class="rss-subscribe">Find the feed <a href="{{ "/feed.xml" | relative_url }}">here</a>.</p>
+../posts.html
