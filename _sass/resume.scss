@@ -1,0 +1,88 @@
+section {
+  display: flex;
+  padding-top: 2.4rem;
+  padding-bottom: 2.4rem;
+  padding-left: .2rem;
+  border-top: .1rem solid #adb5bd;
+  hyphens: auto;
+}
+
+.section-title {
+  color: #9ca3a9;
+  font-size: 1.5rem;
+  text-align: left;
+  min-width: 11rem;
+}
+
+// scss-lint:disable EmptyRule
+.section-content {
+}
+
+.section-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.block {
+  margin-bottom: 2rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.block-square {
+  width: 17rem;
+
+  &:nth-last-child(2) {
+    margin-bottom: 0;
+  }
+}
+
+.block-title {
+  color: #2e2e2e;
+  font-size: 1.2rem;
+  margin-bottom: .4rem;
+  font-weight: bold;
+}
+
+.block-subtitle {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #a2a9b0;
+}
+
+.block-content {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: .8rem;
+}
+
+.block-tasks {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: .8rem;
+}
+
+@media screen and (max-width: 48em) {
+  section {
+    display: block;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .section-title {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .section-flex {
+    display: block;
+  }
+
+  .block-square {
+    &:nth-last-child(2) {
+      margin-bottom: 2rem;
+    }
+  }
+}
