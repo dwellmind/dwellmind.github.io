@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="home">
+  <h1 class="page-heading">Resources</h1>
+  {%- if site.data.resources.size > 0 -%}
+    <ul class="resources-list">
+      {%- for resource in site.data.resources -%}
+      <li>
+        <a href="{{ resource.url }}">{{ resource.name }}</a>
+      </li>
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
+</div>

@@ -1,0 +1,184 @@
+title: Pierre Le Gall — <i>Web developer</i> / <i>Scrum master</i>
+
+personality:
+  name: "Personality"
+  color: "#019b69"
+  items:
+    - curious
+    - empathic
+    - honest
+
+skills:
+  name: "Skills"
+  color: "#019b69"
+  items:
+    - title: Team framework
+      items: Scrum (certified PSM1)
+    - title: Programming languages
+      items: Elixir, JavaScript/TypeScript, and a bit of Rust
+    - title: Data management
+      items: PostgreSQL, REST      
+    - title: Web back-end
+      items: Phoenix Framework
+    - title: Web front-end
+      items: React/NextJS
+    - title: Web UI
+      items: TailwindCSS, DaisyUI
+    - title: Source control
+      items: Git, GitHub
+    - title: Environment
+      items: GNU/Linux, Docker, Fly.io
+
+experiences:
+  name: "Experiences"
+  color: "#019b69"
+  items:
+    - title: Web developer (Gens de Confiance)
+      duration: January 2023 - March 2023
+      tasks:
+        - brainstorming about the future of the Gens de Confiance platform        
+        - tasks planning
+        - implementation (back-end & front-end)
+        - peer code review
+        - presentation of the solution to the team
+      tooling: Scrum, TypeScript/Node.js, NextJs, PHP, MySQL, Git
+    - title: Diverse activities
+      duration: 2020 - 2022
+      tasks:
+        - DJing at events
+        - music events organisation
+        - harm reduction at events
+        - travelling
+        - React/NextJS self-training
+        - Elixir/Phoenix Framework self-training
+    - title: Web developer (Zenika consultant)
+      duration: January 2019 - February 2020
+      company: IBP, Nantes (France)
+      description: Development of an internal project quality monitoring tool. It was a test project to show how the company could use the Cloud for their next projects. AWS was chosen for this experimentation.
+      tasks:
+        - tasks planning
+        - implementation (back-end & front-end)
+        - peer code review
+        - deployment
+        - demo to final users
+        - presentation of the solution to decision-makers
+        - Git training for the client's developers
+      tooling: Scrum, JavaScript/Node.js, Angular, PostgreSQL, Git, AWS
+    - title: Trainer (Zenika consultant)
+      duration: November 2019
+      company: Zenika (France)
+      description: Provide training about RxJS for a class of 5 trainees.
+      tasks:
+        - update course material
+        - create some exercices suited to the class needs
+        - teaching to trainees
+      tooling: JavaScript, RxJS
+    - title: Web developer (Zenika consultant)
+      duration: August 2018 - December 2018
+      company: Manitou, Nantes (France)
+      description: Development of a web app mobile-first for the internal communication (news, events, chat) of the Manitou group.
+      tasks:
+        - tasks planning
+        - implementation (mainly front-end)        
+        - end-to-end testing
+        - deployment
+      tooling: JavaScript/Node.js, Angular, Ionic, Firebase, Git
+    - title: Web developer (Zenika consultant)
+      duration: Febuary 2018 - June 2018
+      company: Groupama, Rennes (France)
+      description: Development of the insurance private individual web space.
+      tasks:
+        - participation to tasks planning
+        - implementation (back-end & front-end)
+        - peer code review
+        - demo to the business team
+      tooling: Scrum, Java, JavaScript, Angular, Git, GitLab
+    - title: Web developer (SII consultant)
+      duration: January 2017 - December 2017
+      company: Energiency, Rennes (France)
+      description: Development of the Energiency product, a monitoring platform of energy consumption for the industry.
+      tasks:
+        - design and implementation (middleware & front-end)
+        - test automatizations
+        - peer code review
+      tooling: Scrum, JavaScript/Node.js, MongoDB, Angular, Git, GitLab
+    - title: Student researcher in computing sciences
+      duration: January 2016 - August 2016
+      company: Inria, Rennes (France)
+      description: Research on the interoperability between different internal Domain Specific Languages.
+      tasks:
+        - bibliography writing about DSLs
+        - design and implementation of a POOC about internal DSLs transformations
+      tooling: Java/Xtend, Python, Git
+    - title: Web developer
+      duration: October 2014 - July 2015
+      company: Télécom Santé, Rennes (France)
+      description: Development and maintenance of the MediaScreen product, an hybrid TV-tablet media center for patients in hospital rooms.
+      tasks:
+        - corrective maintenance and developpement of applications for the MediaScreen
+        - test scenari writing
+      tooling: JavaScript/Node.js, MongoDB, Git
+    - title: Student Web Developer
+      duration: January 2013 - August 2014
+      company: Thalès Système Aéroportés, Brest (France)
+      description: Development of the repairs flow information system.
+      tasks:
+        - corrective maintenance of the legacy app
+        - definition of new needs with the business team
+        - design and implementation of the new app (back-end & front-end)
+      tooling: PHP/Symfony, Ext JS, Subversion
+
+education:
+  name: "Education"
+  color: "#019b69"
+  items:
+    - title: Certification Professional Scrum Master 1
+      duration: March 2024
+      location: Ib Cegos (Nantes)
+    - title: Project manager training
+      duration: December 2023 - Mars 2024
+      location: Ib Cegos (Nantes)    
+    - title: French Master degree in computing science<br/><i>Système d'Information Centré sur l'Humain</i>
+      duration: September 2015 - June 2016
+      location: Université de Brest (France)
+    - title: French Master degree in computing science<br/><i>Technologies de l'Information et Ingénerie du Logiciel</i>
+      duration: September 2012 - June 2014
+      location: Université de Brest (France)
+    - title: French License degree in computing science<br/><i>Conception et Développement d'Applications</i>
+      duration: September 2010 - June 2012
+      location: Université de Brest (France)
+    - title: French BTS degree in computing science<br/><i>Informatique de Gestion</i>
+      duration: September 2008 - June 2010
+      location: Lycée Saint-Louis, Châteaulin (France)
+
+languages:
+  name: "Languages"
+  color: "#019b69"
+  items:
+    - name: English
+      proficiency: Listened to and read daily
+    - name: French
+      proficiency: Native
+
+others:
+  name: "Others"
+  color: "#019b69"
+  items:
+    - title: Music
+      description: >
+        <ul>
+          <li>DJing</li>
+          <li>Guitar & bass guitar</li>
+        </ul>
+    - title: Associative
+      description: >
+        <ul>
+          <li>DJ/organizer at Tempus Fugit Project, association organizing electronic music events</li>
+          <li>Participant for multiple harm reduction associations actions in party environments</li>
+        </ul>
+    - title: Sport
+      description: >
+        <ul>
+          <li>Kung fu</li>
+          <li>Walking</li>
+        </ul>
