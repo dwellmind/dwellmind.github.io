@@ -1,0 +1,126 @@
+---
+layout: default
+---
+
+<div class="container">
+  <h1 class="page-heading">Resume</h1>
+
+  <section id="languages">
+    <div class="section-title">
+      Languages
+    </div>
+    <div class="section-content section-flex">
+      {% for language in site.data.resume.languages %}
+      <div class="block block-square">
+        <div class="block-title">
+          {{ language.name }}
+        </div>
+        <div class="block-content">
+          {{ language.proficiency }}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="section-title">
+      Skills
+    </div>
+    <div class="section-content">
+      {% for skill in site.data.resume.skills %}
+      <div class="block">
+        <div class="block-title">
+          {{ skill.title }}
+        </div>
+        <div class="block-content">
+          {{ skill.items }}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="section-title">
+      Experience
+    </div>
+    <div class="section-content">
+      {% for exp in site.data.resume.experience %}
+      <div class="block">
+        <div class="block-title">
+          {{ exp.title }}
+        </div>
+        <div class="block-subtitle">
+          {{ exp.duration }} | {{ exp.company }}
+        </div>
+        <div class="block-content">
+          {{ exp.description }}
+        </div>
+        <div class="block-tooling">
+          <strong>Tooling:</strong> {{ exp.tooling }}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  {% if site.data.resume.projects %}
+  <section id="projects">
+    <div class="section-title">
+      Projects
+    </div>
+    <div class="section-content">
+      {% for project in site.data.resume.projects %}
+      <div class="block">
+        <div class="block-title">
+          {{ project.name }}
+        </div>
+        <div class="block-subtitle">
+          {{ project.contribution }}
+        </div>
+        <div class="block-content">
+          {{ project.description }}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  <section id="education">
+    <div class="section-title">
+      Education
+    </div>
+    <div class="section-content">
+      {% for edu in site.data.resume.education %}
+      <div class="block">
+        <div class="block-title">
+          {{ edu.title }}
+        </div>
+        <div class="block-subtitle">
+          {{ edu.duration }} | {{ edu.location }}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section id="hobbies">
+    <div class="section-title">
+      Hobbies
+    </div>
+    <div class="section-content section-flex">
+      {% for hobby in site.data.resume.hobbies %}
+      <div class="block block-square">
+        <div class="block-title">
+          {{ hobby.title }}
+        </div>
+        <div class="block-content">
+          {{ hobby.description }}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+</div>

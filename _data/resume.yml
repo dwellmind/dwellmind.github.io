@@ -1,0 +1,63 @@
+education:
+  - title: French Master degree in computing science<br/><i>Système d'Information Centré sur l'Humain</i>
+    duration: September 2015 - June 2016
+    location: Université de Brest (France)
+  - title: French Master degree in computing science<br/><i>Technologie de l'Information et Ingénerie du Logiciel</i>
+    duration: September 2012 - June 2014
+    location: Université de Brest (France)
+  - title: French License degree in computing science<br/><i>Conception et Développement d'Applications</i>
+    duration: September 2010 - June 2012
+    location: Université de Brest (France)
+  - title: French BTS degree in computing science<br/><i>Informatique de Gestion</i>
+    duration: September 2008 - June 2010
+    location: Lycée Saint-Louis, Châteaulin (France)
+skills:
+  - title: Programming
+    items: JavaScript, Java, PHP, Ruby 💙, Elixir 💙
+  - title: Data management
+    items: MySQL, PostgreSQL, MongoDB
+  - title: Version control
+    items: Git 💙, GitHub, GitLab
+  - title: System administration
+    items: GNU/Linux 💙, Docker, AWS
+experience:
+  - title: Web developer (Zenika consultant)
+    duration: January 2019 - Febuary 2020
+    company: IBP, Nantes (France)
+    description: Development of an internal project quality monitoring tool. It was a test project to show how the company could use the Cloud for their next projects. AWS was chosen for this experimentation.
+    tooling: JavaScript/Node.js, Angular, PostgreSQL, Git, AWS
+  - title: Web developer (Zenika consultant)
+    duration: Febuary 2018 - June 2018
+    company: Groupama, Rennes (France)
+    description: Development of the insurance customer web space.
+    tooling: Java, JavaScript, Angular, Git, GitLab
+  - title: Web developer (SSII consultant)
+    duration: January 2017 - December 2017
+    company: Energiency, Rennes (France)
+    description: Development of the Energiency product, a monitoring platform of energy consumption for the industry.
+    tooling: JavaScript/Node.js, MongoDB, Angular, Git, GitLab
+  - title: Student researcher in computing sciences
+    duration: January 2016 - August 2016
+    company: Inria, Rennes (France)
+    description: Research on the interoperability between different internal Domain Specific Languages.
+    tooling: Java/Xtend, Python, Git
+  - title: Web developer
+    duration: October 2014 - July 2015
+    company: Télécom Santé, Rennes (France)
+    description: Development and maintenance of the MediaScreen product, an hybrid TV-tablet mediacenter for patients in hospital rooms.
+    tooling: JavaScript/Node.js, MongoDB, Git
+  - title: Student Web Developer
+    duration: January 2013 - August 2014
+    company: Thalès Système Aéroportés, Brest (France)
+    description: Development of the repairs flow information system.
+    tooling: PHP/Symfony, Ext JS, Subversion
+languages:
+  - name: English
+    proficiency: Listened to and read daily
+  - name: French
+    proficiency: Native
+hobbies:
+  - title: Music
+    description: DJing 💙, guitar, bass guitar
+  - title: Associative
+    description: Volunteer at Techno+ (an harm reduction association focused on the party world)
