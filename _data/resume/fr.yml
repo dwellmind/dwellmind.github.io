@@ -1,0 +1,172 @@
+title: Pierre Le Gall — <i>Développeur Web full-stack</i>
+
+skills:
+  name: "Compétences"
+  color: "#019b69"
+  items:
+    - title: Soft skills
+      items: Empathique, consciencieux, esprit d'équipe
+    - title: Langages de programmation
+      items: Elixir, JavaScript/TypeScript, et un peu de Rust
+    - title: Gestion des données
+      items: PostgreSQL, REST      
+    - title: Web back-end
+      items: Phoenix Framework
+    - title: Web front-end
+      items: React/NextJS
+    - title: Web UI
+      items: TailwindCSS, DaisyUI
+    - title: Gestion de versions
+      items: Git, GitHub
+    - title: Environnement
+      items: GNU/Linux, Docker, Fly.io
+
+experiences:
+  name: "Expériences"
+  color: "#019b69"
+  items:
+    - title: Développeur Web (Gens de Confiance)
+      duration: January 2023 - March 2023
+      tasks:
+        - conception de la solution
+        - planification des tâches à venir (SCRUM sprints de 3 semaine)
+        - implémentation de la solution (back-end et front-end)
+        - peer code review
+        - présentation de la solution finale aux équipes
+        - brainstorming sur l'avenir de la plateforme Gens de Confiance
+      tooling: TypeScript/Node.js, NextJs, PHP, MySQL, Git
+    - title: Activités diverses
+      duration: 2020-2022
+      tasks:
+        - DJing en événements
+        - organisation d'événements musicaux
+        - réduction des risques en événements
+        - voyages
+        - formation React/NextJS
+        - formation Elixir/Phoenix Framework
+    - title: Développeur Web (consultant Zenika)
+      duration: Janvier 2019 - Février 2020
+      company: IBP, Nantes (France)
+      description: Développement interne d'une plateforme Web de gestion de qualité logicielle. Le but principal étant d'expérimenter la création de logiciel pour le Cloud dans le contexte de l'entreprise. AWS a été retenu pour cette expérimentation.
+      tasks:
+        - conception de la solution
+        - planification des tâches à venir (SCRUM sprints d'une semaine)
+        - implémentation de la solution (back-end et front-end)
+        - peer code review
+        - mise en production
+        - démo hebdomadaire aux utilisateurs finaux des avancés du projet
+        - présentation de la solution finale aux décideurs
+        - formation des collaborateurs à Git
+      tooling: JavaScript/Node.js, Angular, PostgreSQL, AWS
+    - title: Formateur (consultat Zenika)
+      duration: Novembre 2019
+      company: Zenika (France)
+      description: Formation RxJS d'une classe de 5 apprentis.
+      tasks:
+        - mise à jour des contenus de formation
+        - création d'exercices adaptés à la classe
+        - cours de formation
+      tooling: JavaScript, RxJS
+    - title: Développeur Web (consultant Zenika)
+      duration: Août 2018 - Décembre 2018
+      company: Manitou, Nantes (France)
+      description: Développement d'une application web mobile-first pour la communication interne (news, événements, chat) du groupe Manitou.
+      tasks:
+        - plannification des tâches
+        - test end-to-end
+        - implémentation (principalement front-end)
+        - déploiement
+    - title: Développeur Web (Zenika consultant)
+      duration: Février 2018 - Juin 2018
+      company: Groupama, Rennes (France)
+      description: Développement et maintenance de l'espace client assurance particulier.
+      tasks:
+        - participation à la planification des tâches à venir (SCRUM de 3 semaines)
+        - implémentation de la solution (back-end et front-end)
+        - peer code review
+        - démo à l'équipe métier des avancés de la solution
+      tooling: Java, JavaScript, Oracle, Angular, Git, Bitbucket
+    - title: Développeur Web (consultant SII)
+      duration: Janvier 2017 - Décembre 2017
+      company: Energiency, Rennes (France)
+      description: Développement du service Energiency, une plateforme de monitoring de consommation énergétique pour l'industrie.
+      tasks:
+        - design et implémentation de la solution logicielle (middleware et front-end)
+        - développement de tests automatisés
+        - peer code review
+        - présentation de la solution finale au métier
+      tooling: JavaScript/Node.js, MongoDB, Angular, Git, GitLab
+    - title: Étudiant chercheur en informatique
+      duration: Janvier 2016 - Août 2016
+      company: Inria, Rennes (France)
+      description: Recherches sur l'interopérabilité entre différent DSL (Domain-Specific Languages) interne.
+      tasks:
+        - rédaction d'une bibliographie sur le sujet des DSL
+        - conception de développement d'un prototype de transformation de DSL internes
+      tooling: Java/Xtend, Python
+    - title: Développeur Web
+      duration: Octobre 2014 - Juillet 2015
+      company: Télécom Santé, Rennes (France)
+      description: Développement et maintenance du produit MediaScreen, une TV-tablet à l'usage des patients des chambres d'hospitaux.
+      tasks:
+        - maintenIance et développement des différentes applications de MediaScreen
+        - écritures de scénarios de test
+      tooling: JavaScript/Node.js, MongoDB
+    - title: Étudiant développeur Web
+      duration: Janvier 2013 - Août 2014
+      company: Thalès Système Aéroportés, Brest (France)
+      description: Développement du système d'information du flux des réparations.
+      tasks:
+        - maintenance de l'outil legacy
+        - définition des nouveaux besoins avec le métier
+        - conception et développement de la nouvelle application (back-end et front-end)
+      tooling: PHP, Symfony, Ext JS, SVN
+
+education:
+  name: "Études"
+  color: "#019b69"
+  items:
+    - title: Master en informatique<br/><i>Système d'Information Centré sur l'Humain</i>
+      duration: Septembre 2015 - Juin 2016
+      location: Université de Brest (France)
+    - title: Master en informatique<br/><i>Technologies de l'Information et Ingénierie du Logiciel</i>
+      duration: Septembre 2012 - Juin 2014
+      location: Université de Brest (France)
+    - title: License en informatique<br/><i>Conception et Développement d'Applications</i>
+      duration: Septembre 2010 - Juin 2012
+      location: Université de Brest (France)
+    - title: BTS en informatique<br/><i>Informatique de Gestion</i>
+      duration: September 2008 - June 2010
+      location: Lycée Saint-Louis, Châteaulin (France)
+
+languages:
+  name: "Langues"
+  color: "#019b69"
+  items:
+    - name: Anglais
+      proficiency: Écouté et lu tous les jours
+    - name: Français
+      proficiency: Natif
+
+others:
+  name: "Autres"
+  color: "#019b69"
+  items:
+    - title: Musique
+      description: >
+        <ul>
+          <li>DJing</li>
+          <li>Guitare & bass guitare</li>
+        </ul>
+    - title: Associatif
+      description: >
+        <ul>
+          <li>DJ/organisateur chez Tempus Fugit Project, association organisatrice d'événement de musique électronique</li>
+          <li>Intervenant pour plusieurs associations de réduction des risques en milieu festif</li>
+        <ul>
+    - title: Sport
+      description: >
+        <ul>
+          <li>Kung fu</li>
+          <li>Marche, randonnée</li>
+        </ul>

@@ -1,0 +1,185 @@
+---
+layout: default
+---
+
+{% assign resume = site.data.resume.en %}
+
+<div class="container">
+  <h1 class="page-heading">{{ resume.title }}</h1>
+
+  {% if resume.abstract %}
+  <section
+    id="abstract"
+    style="{% if resume.abstract.color %}border-color: {{ resume.abstract.color }}; {% endif %}"
+  >
+    <div class="section-content" style="text-align: justify;">
+      {{ resume.abstract.text }}
+    </div>
+  </section>
+  {% endif %}
+
+  <section
+    id="skills"
+    style="{% if resume.skills.color %}border-color: {{ resume.skills.color }}; {% endif %}"
+  >
+    <div class="section-title"
+      style="{% if resume.skills.color %}color: {{ resume.skills.color }}; {% endif %}"
+    >
+      {{ resume.skills.name }}
+    </div>
+    <div class="section-content">
+      {% for item in resume.skills.items %}
+      <div class="block">
+        <div class="block-title">
+          {{ item.title }}
+        </div>
+        <div class="block-content">
+          {{ item.items }}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section
+    id="experiences"
+    style="{% if resume.experiences.color %}border-color: {{ resume.experiences.color }}; {% endif %}"
+  >
+    <div
+      class="section-title"
+      style="{% if resume.experiences.color %}color: {{ resume.experiences.color }}; {% endif %}"
+    >
+      {{ resume.experiences.name }}
+    </div>
+    <div class="section-content">
+      {% for item in resume.experiences.items %}
+      <div class="block">
+        <div class="block-title">
+          {{ item.title }}
+        </div>
+        <div class="block-subtitle">
+          {{ item.duration }} {% if item.company %} | {{ item.company }} {% endif %}
+        </div>
+        <div class="block-content">
+          {{ item.description }}
+        </div>
+        {% if item.tasks %}
+        <div class="block-tasks">
+          <ul>
+            {% for task in item.tasks %}
+              <li>{{ task }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+        {% if item.tooling %}
+        <div class="block-tooling">
+          <strong>Outils:</strong> {{ item.tooling }}
+        </div>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  {% if resume.projects %}
+  <section
+    id="projects"
+    style="{% if resume.projects.color %}border-color: {{ resume.projects.color }}; {% endif %}"
+  >
+    <div
+      class="section-title"
+      style="{% if resume.projects.color %}color: {{ resume.projects.color }}; {% endif %}"
+    >
+      {{ resume.projects.name }}
+    </div>
+    <div class="section-content">
+      {% for item in resume.projects.items %}
+      <div class="block">
+        <div class="block-title">
+          {{ item.name }}
+        </div>
+        <div class="block-subtitle">
+          {{ item.contribution }}
+        </div>
+        <div class="block-content">
+          {{ item.description }}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  <section
+    id="education"
+    style="{% if resume.education.color %}border-color: {{ resume.education.color }}; {% endif %}"
+  >
+    <div
+      class="section-title"
+      style="{% if resume.education.color %}color: {{ resume.education.color }}; {% endif %}"
+    >
+      {{ resume.education.name }}
+    </div>
+    <div class="section-content">
+      {% for item in resume.education.items %}
+      <div class="block">
+        <div class="block-title">
+          {{ item.title }}
+        </div>
+        <div class="block-subtitle">
+          {{ item.duration }} | {{ item.location }}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section
+    id="languages"
+    style="{% if resume.languages.color %}border-color: {{ resume.languages.color }}; {% endif %}"
+  >
+    <div
+      class="section-title"
+      style="{% if resume.languages.color %}color: {{ resume.languages.color }}; {% endif %}"
+    >
+      {{ resume.languages.name }}
+    </div>
+    <div class="section-content section-flex">
+      {% for item in resume.languages.items %}
+      <div class="block block-square">
+        <div class="block-title">
+          {{ item.name }}
+        </div>
+        <div class="block-content">
+          {{ item.proficiency }}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section
+    id="others"
+    style="{% if resume.others.color %}border-color: {{ resume.others.color }}; {% endif %}"
+  >
+    <div
+      class="section-title"
+      style="{% if resume.others.color %}color: {{ resume.others.color }}; {% endif %}"
+    >
+      {{ resume.others.name }}
+    </div>
+    <div class="section-content section-flex">
+      {% for item in resume.others.items %}
+      <div class="block block-square">
+        <div class="block-title">
+          {{ item.title }}
+        </div>
+        <div class="block-content">
+          {{ item.description }}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+</div>
